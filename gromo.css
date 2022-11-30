@@ -1044,8 +1044,9 @@ footer h3{
 .weather-icon img{
     display: block;
     margin: 0 auto;
-    width: 100%;
-    height: 200px;
+    width: 90%;
+    height: 150px;
+    padding: 10px;
 }
 
 .temperature-value{
