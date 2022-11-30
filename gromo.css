@@ -347,6 +347,7 @@ form #btn:active{
     height: 65vh;
     background-size: cover;
     background-position: center;
+    border-radius: 7.5px;
 }
 
 .heading{
@@ -563,6 +564,7 @@ main h1{
     background-position: right center ;
     width: 100%;
     border: none;
+    border-radius: 0px 8px 8px 0px;
 }
 
 #h1{
