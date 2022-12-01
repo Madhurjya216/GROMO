@@ -347,7 +347,7 @@ form #btn:active{
     height: 65vh;
     background-size: cover;
     background-position: center;
-    border-radius: 7.5px;
+    border-radius: 8px;
 }
 
 .heading{
@@ -509,6 +509,19 @@ main h1{
     flex-wrap: wrap;
 }
 
+.categories-2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 25px;
+}
+
+.categories-2 a{
+    text-decoration: none;;
+}
+
 .categories a{
     text-decoration: none;;
 } 
@@ -564,7 +577,7 @@ main h1{
     background-position: right center ;
     width: 100%;
     border: none;
-    border-radius: 0px 8px 8px 0px;
+    border-radius: 10px;
 }
 
 #h1{
@@ -683,7 +696,7 @@ main h1{
     height: 274vh;
     opacity: 0.3;
     position: absolute;
-    top: 360%;
+    top: 410%;
 }
 
 .para-hd{
