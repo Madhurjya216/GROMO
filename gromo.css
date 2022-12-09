@@ -359,7 +359,7 @@ form #btn:active{
 .heading h3{
     padding: 10px 0px; 
 }
-
+ 
 .hd{
     color: grey;
     font-size: 25px;
@@ -544,6 +544,8 @@ main h1{
     margin: 0px 20px;
     width: 20%;
     transition: 0.3s;
+    z-index: 2;
+    background: white;
 }
 
 .feature-1:hover{
@@ -626,7 +628,7 @@ main h1{
     /* margin-left: 10px; */
     justify-content: center;
     text-align: center;
-    width: 100%;
+    /* width: 100%; */
     /* flex-wrap: wrap; */
 }
 
@@ -693,10 +695,21 @@ main h1{
     background-position: center;
     background-size: cover;
     width: 100%;
-    height: 274vh;
+    height: 110vh;
     opacity: 0.3;
     position: absolute;
-    top: 410%;
+    top: 420%;
+}
+
+.bg2{
+    background: url(https://img.freepik.com/premium-vector/hand-drawn-doodle-vegetable-collection_24595-250.jpg?w=2000), no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+    opacity: 0.3;
+    position: absolute;
+    top: 288%;
 }
 
 .para-hd{
@@ -1009,8 +1022,7 @@ footer h3{
 
 .container{
     width: 250px;    
-    background-color: #FFF;
-    
+    background-color: #FFF; 
     display: block;
     margin: 0 auto;
     border-radius: 10px;
@@ -1245,6 +1257,7 @@ footer h3{
     .product-slide{
         flex-direction: column;
         text-align: center;
+        width: 100%;
     }
 
     .product-slide2{
@@ -1255,13 +1268,13 @@ footer h3{
     .reviews{
         flex-direction: column;
         text-align: center;
-        margin-left: 25%;
+        margin-left: 22%;
     }
 
     .reviews-2{
         flex-direction: column;
         text-align: center;
-        margin-left: 25%;
+        margin-left: 22%;
     }
 
     .contact-flex{
@@ -1269,8 +1282,8 @@ footer h3{
         text-align: center;
     }
 
-    .contact-form{
-        width: 300px;
+    .contact-form {
+        width: 433px;
     }
 
     .map{
@@ -1293,12 +1306,23 @@ footer h3{
         font-size: 12px;
     }
 
-    .bubble1{
-        display: none;
+    .design1{
+        left: 15%;
+        top: 150%;
     }
 
-    .to-btn{
-        right: 20%
+    .design2{
+        left: 22%;
+        top: 215%;
+    }
+
+    .design3 {
+        left: 51%;
+        top: 185%;
+    }
+
+    .to-btn {
+        right: 7%;
     }
 
     .text{
@@ -1309,12 +1333,99 @@ footer h3{
         z-index: 100;
     }
 
-    .feature-2{
+    /* .feature-2{
         margin-left: 34%;
-    }
+    } */
 
     .heading{
         padding-top: 500px;;
+    }
+    
+    .categories-2{
+        flex-direction: column;
+    }
+
+    .flex{
+        flex-direction: column;
+    }
+
+    #box{
+        left: 12%;
+        top: 25%;
+    }
+
+    .discount {
+        margin-top: -5px;
+    }
+
+    .container{
+        text-align: center;
+        width: 100%;;
+    }
+
+    .weather-icon{
+        padding: 0px 200px; 
+    }
+
+    .feature{
+        margin: 16px 20px;
+    }
+
+    .feature-1{
+        width: 281px;
+        margin: 23px 20px;
+    }
+
+    .reduce{
+        margin-top: 10px;
+    }
+
+    #h1{
+        font-size: 40px;
+        margin-bottom: 10px;
+        margin-left: 58%;
+    }
+
+    #h3{
+        font-size: 24px;
+        margin-left: 58%;
+    }
+
+    .discount a #btn{
+        left: 58%;
+    }
+
+    #text{
+        margin-top: 70px;
+    }
+
+    .map{
+        width: 100%;
+        margin-right: 1px;
+        margin-left: 1px;
+    }
+
+    #para-last {
+        margin: 0px 5px;
+    }
+
+    .heading{
+        padding-top: 52%;;
+    }
+
+    .feature-2{
+        margin-left: 32%;
+        width: 270px;
+    }   
+
+    .bg{
+        height: 218vh;
+        top: 456%;
+    }
+
+    .bg2{
+        height: 140vh;
+        top: 303%;
     }
 
 }
