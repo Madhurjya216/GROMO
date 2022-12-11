@@ -1258,23 +1258,25 @@ footer h3{
         flex-direction: column;
         text-align: center;
         width: 100%;
+        margin-left: -11%;
     }
 
     .product-slide2{
         flex-direction: column;
         text-align: center;
+        margin-left: -11%;
     }
 
     .reviews{
         flex-direction: column;
         text-align: center;
-        margin-left: 22%;
+        margin-left: 3%;
     }
 
     .reviews-2{
         flex-direction: column;
         text-align: center;
-        margin-left: 22%;
+        margin-left: 3%;
     }
 
     .contact-flex{
@@ -1283,7 +1285,7 @@ footer h3{
     }
 
     .contact-form {
-        width: 433px;
+        width: 95%;
     }
 
     .map{
@@ -1307,18 +1309,18 @@ footer h3{
     }
 
     .design1{
-        left: 15%;
-        top: 150%;
-    }
-
-    .design2{
-        left: 22%;
+        left: 2%;
         top: 215%;
     }
 
+    .design2{
+        left: 32%;
+        top: 290%;
+    }
+
     .design3 {
-        left: 51%;
-        top: 185%;
+        left: 1%;
+        top: 368%;
     }
 
     .to-btn {
@@ -1350,8 +1352,10 @@ footer h3{
     }
 
     #box{
-        left: 12%;
-        top: 25%;
+        width: 72%;
+        left: 8%;
+        top: 8%;
+        height: 26vh;
     }
 
     .discount {
@@ -1419,13 +1423,24 @@ footer h3{
     }   
 
     .bg{
-        height: 218vh;
-        top: 456%;
+        height: 358vh;
+        top: 704%;
     }
 
     .bg2{
         height: 140vh;
-        top: 303%;
+        top: 457%;
+    }
+
+    #box button {
+        margin-left: 87%;
+        background: orange;
+        font-size: 19px;
+        padding: 2px 17px;
+        cursor: pointer;
+        border: none;
+        color: white;
+        border-radius: 8px;
     }
 
 }
